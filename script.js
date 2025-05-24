@@ -5,7 +5,7 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
   e.preventDefault();
   const nisn = document.getElementById('nisn').value;
   Tabletop.init({
-    key: 16tGNj1-DfnUDcH4WQr4_bqyKp4Rbwr08cFqUNdN-5ik,
+    key: 16tGNj1-DfnUDcH4WQr4_bqyKp4Rbwr08cFqUNdN-5ik;
     callback: (data) => {
       const siswa = data.sheets.Sheet1.elements.find((row) => row.B === nisn);
       if (siswa) {

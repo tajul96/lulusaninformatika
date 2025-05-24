@@ -1,0 +1,28 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pengumuman Kelulusan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-form">
+    <h2>Login</h2>
+    <form id="login-form">
+      <input type="text" id="nisn" placeholder="NISN">
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <div class="hasil" style="display: none;">
+    <h2>Hasil Pengumuman</h2>
+    <p>Nama: <span id="nama"></span></p>
+    <p>NISN: <span id="nisn-hasil"></span></p>
+    <p>TTL: <span id="ttl"></span></p>
+    <p>Status: <span id="status"></span></p>
+    <button id="download-skl" style="display: none;">Download SKL</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/tabletop@1.6.3/dist/tabletop.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
